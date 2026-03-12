@@ -29,7 +29,8 @@ fun LatestNewsCarousel() {
     val newsList = listOf(
         "Empieza la tercera guerra mundial, Perú inicia conflicto" to "febrero 08 - 2026",
         "Un pescado resulta elegido nuevo gobernador de Campeche" to "febrero 15 - 2026",
-        "Nueva tecnología de IA revoluciona el mercado" to "febrero 17 - 2036"
+        "Chimpancé inventa una nueva alternativa a la rueda" to "febrero 10 - 2026",
+        "La espectacular historia de los griegos según la IA" to "febrero 13 - 2026"
     )
 
     Column(
