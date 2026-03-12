@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.t4newsapp.components.CategoryTabs
+import com.example.t4newsapp.components.LatestNewsCarousel
 import com.example.t4newsapp.components.TopSearchBar
 import com.example.t4newsapp.ui.theme.T4NewsAppTheme
 
@@ -30,6 +31,7 @@ class MainActivity : ComponentActivity() {
                     ) {
                         TopSearchBar()
                         CategoryTabs()
+                        LatestNewsCarousel()
                     }
                 }
             }
